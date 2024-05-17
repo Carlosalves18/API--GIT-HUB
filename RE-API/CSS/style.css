@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.imgg{
+     margin-left: 1400px;
+     margin-top: 20px;
+} 
+ main {
+    padding: 20px;
+}
+
+.perfil {
+    margin-bottom: 20px;
+}  
+
+.perfil-img {
+    width: 300px;
+    border-radius: 50%;
+}
+    
+.nome {
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+    
+.bio {
+    text-align: center;
+    color: #94A3B8;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+    
+.navbar {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+}
+    
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+    
+.navbar ul li a {
+    color: #000;
+    text-decoration: none;
+}
+    
+.btn {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    border: 0 2px #94A3B8;
+    transform: translate(-50%, -50%);
+}
+    
+.btn button {
+    margin: 0 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #94A3B8;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+    
+.btn button:hover {
+    background-color: #A5B4FC;
+    color: #fff;
+}
+    
+.seguidores h1 {
+    font-weight: bold;
+}
+    
+.seguidores #listaSeguidores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+    
+.seguidores button {
+       
+    margin: 0 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #94A3B8;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+       
+.seguidores button:hover {
+    background-color: #A5B4FC;
+    color: #fff;
+}
+.home-volta{
+    text-decoration: none;
+}
+    
+.seguidor img {
+    width: 100px;
+}
+.seguidores h2 {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    left: 65px;
+    margin-right: 200px;
+
+}
+
+.linha {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 60px;
+    height: 5px;
+    background-color: #A5B4FC;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+.seguidores #seguidores-gh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.seguidor {
+    width: calc(25% - 10px);
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.seguidor img {
+    width: 200px;
+}
+
+.seguidor-nome {
+    font-family: "Poppins", sans-serif ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.seguidores button {
+    margin: 0 10px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #94A3B8;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seguidores button:hover {
+    background-color: #A5B4FC;
+    color: #fff;
+}
+
+
+    
